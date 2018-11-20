@@ -56,12 +56,9 @@ import torch
 torch.version
 ```
 ## 流程图
-```flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-st->op->cond
-cond(yes)->e
-cond(no)->op
+```graph TD
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{enough?}
+C -->|Yes| D[Laptop]
+C -->|No| E[iPhone]
 ```
