@@ -51,11 +51,9 @@ github test
 ### 单句
 `create database hero;`
 ### 代码块
-```
-function fun(){
-     echo "这是一句非常牛逼的代码";
-}
-fun();
+```python
+import torch
+torch.version
 ```
 ## 流程图
 ```
