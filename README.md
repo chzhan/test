@@ -57,8 +57,8 @@ torch.version
 ```
 ## 流程图
 ```graph TD
-A[Christmas] -->|Get money| B(Go shopping)
+A[Christmas] --> |Get money| B(Go shopping)
 B --> C{enough?}
-C -->|Yes| D[Laptop]
-C -->|No| E[iPhone]
+C --> |Yes| D[Laptop]
+C --> |No| E[iPhone]
 ```
