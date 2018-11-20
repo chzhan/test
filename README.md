@@ -56,7 +56,8 @@ import torch
 torch.version
 ```
 ## 流程图
-```graph TD
+```
+graph TD
 A[Christmas] --> |Get money| B(Go shopping)
 B --> C{enough?}
 C --> |Yes| D[Laptop]
