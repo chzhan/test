@@ -49,7 +49,7 @@ github test
 张飞|骂|三弟
 ## 代码
 ### 单句
-`python import numpy`
+`import numpy`
 ### 代码块
 ```python
 import torch
