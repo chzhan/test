@@ -58,6 +58,7 @@ function fun(){
 fun();
 ```
 ## 流程图
+```
 flow
 st=>start: 开始
 op=>operation: My Operation
@@ -66,7 +67,7 @@ e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
-
+```
 
 
 
