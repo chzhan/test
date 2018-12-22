@@ -55,8 +55,6 @@ github test
 import torch
 torch.version
 ```
-
-
 # 公式位置
 - 居中放大:
 $$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$$
@@ -65,15 +63,21 @@ $$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$$
 # 字母修饰
 - 上标:$C^2$
 - 下标:$C_n$
-- 下方:$\sum\atop m=0$
+- 放下面:$\sum\limits_{i>1}$
+- 放下面:$\sum\limits^{N}$
+- 堆叠:$\stackrel{\mathrm{def}}{=}$
 - 矢量:$\vec a$
 - 矢量(向右箭头):$\overrightarrow{xy}$
 - 字体:
-   - Typewriter: $\mathtt {ABC}$
-   - Blackboard Bold:$\mathbb {ABC}$
-   - Sans Serif:$\mathsf {ABC}$
-   - 手写体:$\mathcal {ABC}$
-   - 黑体:$\boldsymbol {ABC}$
+   - 打字机体: $\mathtt {ABCDEF}$
+   - 黑板粗体:$\mathbb {ABCDEF}$
+   - 等线体:$\mathsf {ABCDEF}$
+   - 花体:$\mathcal {ABCDEF}$
+   - 黑体:$\boldsymbol {ABCDEF}$
+   - 手写体:$\mathscr {ABCDEF}$
+   - 罗马体:$\mathrm {ABCDEF}$
+   - 意大利体:$\mathit {ABCDEF}$
+   - 旧德体:$\mathfrak {ABCDEF}$
 - 分组:$10^10$, $10^{10}$
    - {}将同等级的内容扩入其中, 成组处理
 - 括号
@@ -84,12 +88,13 @@ $$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$$
    - 括号与内容适应:$(\frac{x} {y})$, $\left(\frac{x} {y}\right)$
 - 组合数:${n+1}\choose{k}$
 - 求和符号: $\sum$, $\sum_a^b$, $\sum\atop {k_0,\ldots >0,\atop k_0+k_1+\cdots =n}$
-- 极限: $\lim_{x \to 0}$
-- 积分: $\int_0^\infty{f(x)dx}$
-- 分式(fractions): $\frac {分子} {分母}$
-- 根式: $\sqrt[x] {y}$
-- 特殊函数(\函数名): $\sin x, \ln x, \max(a, b, c)$
-- 空格: $a b, a\ b, a\quad b$
+- 极限:$\lim_{x \to 0}$
+- 求导:$\text{d}x$
+- 积分:$\int_0^\infty{f(x)dx}$
+- 分式(fractions):$\frac {分子} {分母}$
+- 根式:$\sqrt[x] {y}$
+- 特殊函数(\函数名):$\sin x, \ln x, \max(a, b, c), \mathop{fun}\limits_{y=1}(x)$
+- 空格:$a b, a\ b, a\quad b$
 # 希腊字母:
    - 大写希腊字母只需首字母大写$\gamma, \Gamma$, 斜体加\var前缀$\Gamma, \varGamma$
    - $\alpha\beta\gamma\delta$, $\Alpha\Beta\Gamma\Delta$
@@ -137,6 +142,3 @@ $$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$$
   a_2x+b_2y+c_2z=d_2\\
   a_3x+b_3y+c_3z=d_3\\
   \end{cases}$
-
-
-
