@@ -47,6 +47,27 @@ github test
 刘备|哭|大哥
 关羽|打|二哥
 张飞|骂|三弟
+<table>
+   <tr>
+     <th>Paper</th>
+     <th>Year</th>
+     <th>Author</th>
+     <th>Venue</th>
+     <th>Reader</th>
+     <th>原始论文</th>
+     <th>读书笔记</th>
+   </tr>
+   <tr>
+     <td>Mask RCNN</td>
+     <td>2017</td>
+     <td>Kaiming He et. al.</td>
+     <td>ICCV</td>
+     <td>Wei</td>
+     <td>./wei/papers/mask_rcnn.pdf</td>
+     <td>./wei/mask_rcnn.note.md</td>
+   </tr>
+</table>
+
 ## 代码
 ### 单句
 `import numpy`
