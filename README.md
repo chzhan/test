@@ -63,7 +63,7 @@ github test
      <td>Kaiming He et. al.</td>
      <td>ICCV</td>
      <td></td>
-     <td>_italic_[link](http://example.com)</td>
+     <td><a href="http://google.com/" title="Google">Google</a></td>
      <td></td>
    </tr>
 </table>
