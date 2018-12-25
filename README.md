@@ -63,7 +63,7 @@ github test
      <td>Kaiming He et. al.</td>
      <td>ICCV</td>
      <td></td>
-     <td><a href="http://google.com/" title="Google">Google</a></td>
+     <td><a href="http://www.baidu.com/" title="Baidu">Baidu</a></td>
      <td></td>
    </tr>
 </table>
