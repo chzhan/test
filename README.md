@@ -63,7 +63,7 @@ github test
      <td>Kaiming He et. al.</td>
      <td>ICCV</td>
      <td></td>
-     <td>[Pixel-Anchor] onclick="window.open('https://arxiv.org/abs/1811.07432v1');"</td>
+     <td>_italic_[link](http://example.com)</td>
      <td></td>
    </tr>
 </table>
