@@ -62,9 +62,9 @@ github test
      <td>2017</td>
      <td>Kaiming He et. al.</td>
      <td>ICCV</td>
-     <td>Wei</td>
-     <td>./wei/papers/mask_rcnn.pdf</td>
-     <td>./wei/mask_rcnn.note.md</td>
+     <td></td>
+     <td>[Pixel-Anchor](https://arxiv.org/abs/1811.07432v1)</td>
+     <td></td>
    </tr>
 </table>
 
